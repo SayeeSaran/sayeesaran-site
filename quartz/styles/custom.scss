@@ -1,3 +1,99 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Typography
+html {
+  font-size: 17px;
+}
+
+tbody,
+li,
+p {
+  line-height: 1.75;
+}
+
+// Single-column centered layout
+.page {
+  max-width: 680px !important;
+  margin: 0 auto !important;
+  padding: 0 1.5rem;
+}
+
+// Hide both sidebars (graph + backlinks now in afterBody)
+.sidebar.left,
+.sidebar.right {
+  display: none !important;
+}
+
+// Top nav bar
+.page-header {
+  margin: 0 !important;
+  padding: 1.5rem 0 !important;
+
+  & > header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    margin: 0 !important;
+  }
+}
+
+// Page title in nav
+.page-title {
+  margin: 0 !important;
+  font-size: 1.4rem !important;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+// Nav links
+nav.site-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.3rem 1rem;
+  margin-left: auto;
+
+  a {
+    color: var(--darkgray);
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    background: none;
+    padding: 0;
+
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+}
+
+// Dark mode toggle in nav
+.darkmode {
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+
+// Mobile adjustments
+@media (max-width: 800px) {
+  .page-header {
+    & > header {
+      flex-wrap: wrap !important;
+    }
+  }
+
+  .page-title {
+    font-size: 1.2rem !important;
+  }
+
+  nav.site-nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    gap: 0.2rem 0.8rem;
+  }
+
+  .darkmode {
+    margin-left: auto;
+  }
+}
