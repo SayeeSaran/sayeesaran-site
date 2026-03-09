@@ -7,7 +7,6 @@ draft: false
 
 The best way to reach me:
 
-
 - **LinkedIn**: [linkedin.com/in/sayeesaran](https://linkedin.com/in/sayeesaran)
 - **Twitter/X**: [@sayeequester](https://twitter.com/sayeequester)
 
