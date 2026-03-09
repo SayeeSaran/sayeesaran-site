@@ -12,7 +12,7 @@ const SiteNav: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   return (
     <nav class="site-nav">
       {links.map((link) => (
-        <a href={`${baseDir}${link.href.replace(/^\//, "")}`}>{link.label}</a>
+        <a href={`${baseDir}/${link.href.replace(/^\//, "")}`}>{link.label}</a>
       ))}
     </nav>
   )
