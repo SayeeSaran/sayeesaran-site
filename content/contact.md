@@ -7,8 +7,8 @@ draft: false
 
 The best way to reach me:
 
-- **Email**: [hello@sayeesaran.com](mailto:hello@sayeesaran.com)
+
 - **LinkedIn**: [linkedin.com/in/sayeesaran](https://linkedin.com/in/sayeesaran)
-- **Twitter/X**: [@sayeesaran](https://twitter.com/sayeesaran)
+- **Twitter/X**: [@sayeequester](https://twitter.com/sayeequester)
 
 Feel free to reach out if you want to talk about carbon markets, sustainability, CDR tech, or just want to say hi.
