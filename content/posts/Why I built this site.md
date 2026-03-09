@@ -20,6 +20,6 @@ Most blogs are streams — reverse-chronological feeds where the latest post pus
 
 ## The tools
 
-This site is built with [Quartz](https://quartz.jzhao.xyz/) and powered by [Obsidian](https://obsidian.md/). I write notes locally, and they become web pages. Simple as that.
+This site is built with [Quartz](https://quartz.jzhao.xyz/) and Claude Code. The site is powered by [Obsidian](https://obsidian.md/). I write notes locally, and they become web pages. Simple as that.
 
 If you want to chat about anything you read here, feel free to [reach out](/contact).
